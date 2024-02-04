@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="497.0" prefWidth="103.0" style="-fx-background-color: #36486b#36486b;">
+         <children>
+            <Text fill="#fefbd8" layoutX="10.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Button layoutX="2.0" layoutY="133.0" mnemonicParsing="false" onAction="#homebtn" prefHeight="26.0" prefWidth="68.0" style="-fx-background-color: #36486b#36486b #36486b#36486b;" text="Home" textFill="#fefbd8" />
+            <Button layoutX="5.0" layoutY="166.0" mnemonicParsing="false" onAction="#lawbtn" prefHeight="26.0" prefWidth="87.0" style="-fx-background-color: #36486b#36486b #36486b#36486b;" text="Laws on HT" textFill="#fefbd8" />
+            <Button layoutX="8.0" layoutY="200.0" mnemonicParsing="false" onAction="#logoutbtn" prefHeight="26.0" prefWidth="56.0" style="-fx-background-color: #36486b#36486b #36486b#36486b;" text="Logout" textFill="#fefbd8" />
+         </children>
+      </Pane>
+      <Text fill="#618685" layoutX="142.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report Human Trafficking incidents" />
+      <Pane layoutX="167.0" layoutY="58.0" opacity="0.84" prefHeight="432.0" prefWidth="425.0" style="-fx-background-color: #36486b #36486b;">
+         <children>
+            <Text fill="#fefbd8" layoutX="52.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Provide the location of the place where you saw the incident happen ." />
+            <ImageView fitHeight="433.0" fitWidth="440.0" layoutX="-4.0" opacity="0.28" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Dpz0osWXgAA5-e5.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#fefbd8" layoutX="52.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Can we contact you for additional assistance in the matter?" />
+            <Text fill="#fefbd8" layoutX="52.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Would you like to provide your contact information?" />
+            <Text fill="#fefbd8" layoutX="52.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What did you see? " />
+            <TextField fx:id="field1" layoutX="52.0" layoutY="86.0" prefHeight="26.0" prefWidth="354.0" />
+            <TextField fx:id="field2" layoutX="52.0" layoutY="149.0" prefHeight="26.0" prefWidth="354.0" />
+            <TextField fx:id="field3" layoutX="51.0" layoutY="229.0" prefHeight="26.0" prefWidth="354.0" />
+            <TextField fx:id="field4" layoutX="51.0" layoutY="299.0" prefHeight="26.0" prefWidth="354.0" />
+            <Button layoutX="200.0" layoutY="345.0" mnemonicParsing="false" onAction="#submitbutton" style="-fx-background-color: #618685#618685;" text="Submit" textFill="#fefbd8" />
+            <Button layoutX="202.0" layoutY="387.0" mnemonicParsing="false" onAction="#rtablebtn" text="View Complaints" />
+
+         </children>
+      </Pane>
+   </children>
+</Pane>

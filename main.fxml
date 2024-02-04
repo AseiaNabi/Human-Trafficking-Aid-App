@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="691.0" style="-fx-background-color: #36486b #36486b;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="525.0" fitWidth="787.0" layoutX="-76.0" layoutY="-26.0" opacity="0.59" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-1.5355224609375" AnchorPane.leftAnchor="-76.0" AnchorPane.rightAnchor="-20.0" AnchorPane.topAnchor="-26.4644775390625">
+         <image>
+            <Image url="@images/AdobeStock_164542297-copyEdit.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D minX="6.0" minY="7.0" />
+         </viewport>
+      </ImageView>
+      <Pane layoutX="24.0" layoutY="104.0" prefHeight="205.0" prefWidth="413.0" style="-fx-background-color: #618685#618685;">
+         <children>
+            <Text fill="#fefbd8" layoutX="26.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center;" text=" Human Trafficking Viictim's Helpline" wrappingWidth="349.2765020983967">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text fill="#fefbd8" layoutX="40.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Human trafficking is the modern forma of slavery and have been rapidly increasing since teh past decades. " wrappingWidth="333.75408935546875" />
+            <Text fill="#fefbd8" layoutX="40.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This app aims to provide a platform for the victims where they can recieve any necessary aid" wrappingWidth="306.5862731933594" />
+         </children>
+      </Pane>
+      <Text fill="#618685" layoutX="131.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login or create an account " />
+      <Button fx:id="btnlogin" layoutX="145.0" layoutY="371.0" mnemonicParsing="false" onAction="#btnlogin" style="-fx-background-color: #618685#618685;" text="Log in " textFill="#fefbd8" />
+      <Button fx:id="btnsignup" layoutX="217.0" layoutY="371.0" mnemonicParsing="false" onAction="#btnsignup" style="-fx-background-color: #618685#618685;" text="Sign Up" textFill="#fefbd8" />
+   </children>
+</AnchorPane>
